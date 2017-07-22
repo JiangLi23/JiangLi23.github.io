@@ -6,9 +6,8 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <img src="images/P51129-124527.jpg" width="300" height="500" />
-		<h1>JiangLi(蒋理)</h1>
-		
+        <img src="images/P51129-124527.jpg"/>
+		<h1>Hi,I am JiangLi(蒋理) From NUAA 803Lab</h1>
       </div>
       <div id="particles-js"></div>
     </div>

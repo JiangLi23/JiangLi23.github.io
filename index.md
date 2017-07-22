@@ -6,7 +6,7 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <img src="images/P51129-124527.jpg" width="50" height="50" />
+        <img src="images/P51129-124527.jpg" width="300" height="500" />
 		<h1>JiangLi(蒋理)</h1>
 		
       </div>

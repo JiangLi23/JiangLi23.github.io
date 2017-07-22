@@ -6,7 +6,9 @@ layout: default
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
-        <h1>JiangLi(蒋理)</h1>
+        <img src="images/P51129-124527.jpg" width="50" height="50" />
+		<h1>JiangLi(蒋理)</h1>
+		
       </div>
       <div id="particles-js"></div>
     </div>

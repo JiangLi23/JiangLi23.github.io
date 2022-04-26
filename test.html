@@ -15,13 +15,6 @@
                 document.addEventListener('AlipayJSBridgeReady', callback, false);
             }
         }
-
-        document.querySelector('.dream').addEventListener('click', function () {
-            AlipayJSBridge.call('snapshot', {
-            }, function (res) {
-                console.log(JSON.stringify(res))
-            })
-        });
     </script>
 </body>
 

@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>我的网站TEST</title>
+</head>
+
+<body>
+    <a href="javascript:void(0)" class="btn dream" style=" color:#666; font-size:50px;">屏幕截图 </a><br>
+
+    <script>
+        function ready(callback) {
+            if (window.AlipayJSBridge) {
+                callback && callback();
+            } else {
+                document.addEventListener('AlipayJSBridgeReady', callback, false);
+            }
+        }
+
+        document.querySelector('.dream').addEventListener('click', function () {
+            AlipayJSBridge.call('snapshot', {
+            }, function (res) {
+                console.log(JSON.stringify(res))
+            })
+        });
+    </script>
+</body>
+
+</html>
